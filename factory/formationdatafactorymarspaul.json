@@ -1,0 +1,9 @@
+{
+	"name": "formationdatafactorymarspaul",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "cdf61bd0-825b-423c-a569-7533d90ae64e",
+		"tenantId": "544fe47f-5772-488f-81a9-fa9de607ecfa"
+	}
+}

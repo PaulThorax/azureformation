@@ -1,0 +1,6 @@
+{
+	"name": "formationintegrationRuntime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
