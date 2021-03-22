@@ -1,0 +1,41 @@
+{
+	"name": "Orchestration",
+	"properties": {
+		"activities": [
+			{
+				"name": "Fichiers_Initiaux",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "Fichiers Initiaux",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "enrichissements",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "Fichiers_Initiaux",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "chargement enrichissements",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			}
+		],
+		"annotations": []
+	}
+}
