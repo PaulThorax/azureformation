@@ -1,0 +1,30 @@
+{
+	"name": "SrcTx_incidence",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Enrichissement Fichier Covid"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "taux_incidence-2021-03-18-17h20.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "dep;jour;P;cl_age90;pop",
+				"type": "String"
+			}
+		]
+	}
+}

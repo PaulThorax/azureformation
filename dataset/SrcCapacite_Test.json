@@ -1,0 +1,30 @@
+{
+	"name": "SrcCapacite_Test",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Enrichissement Fichier Covid"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "test_cap_hebdo-2021-03-18-17h20.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "fra;week;pop;T",
+				"type": "String"
+			}
+		]
+	}
+}

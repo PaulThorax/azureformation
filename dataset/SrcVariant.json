@@ -1,0 +1,30 @@
+{
+	"name": "SrcVariant",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Enrichissement Fichier Covid"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "variant_FR-2021-03-18-17h20.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "fra;semaine;cl_age90;Nb_tests_PCR_TA_crible;Prc_tests_PCR_TA_crible;Nb_susp_501Y_V1;Prc_susp_501Y_V1;Nb_susp_501Y_V2_3;Prc_susp_501Y_V2_3;Nb_susp_IND;Prc_susp_IND;Nb_susp_ABS;Prc_susp_ABS",
+				"type": "String"
+			}
+		]
+	}
+}
