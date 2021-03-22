@@ -5,9 +5,9 @@
 		"annotations": [],
 		"type": "FileServer",
 		"typeProperties": {
-			"host": "C:\\Users\\pthorax\\Desktop\\Ecole_de_la_data\\Microsoft Azure\\datahealth\\",
+			"host": "C:\\Users\\pthorax\\Desktop\\Ecole_de_la_data\\Microsoft Azure\\datahealth",
 			"userId": "BETD\\pthorax",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmZmY2ZTVmMy1lMmYwLTQ3ZDctYTRiOC0xYjM2YjAyODZkYzQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhOGFhNTg1Yi1iMzQwLTQ1YmItYjA2YS1lOTE2NTM2ODA1N2EiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "formationintegrationRuntime",
